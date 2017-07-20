@@ -1,0 +1,11 @@
+[Unit]
+Description=Automation service
+After=syslog.target network.target
+
+[Service]
+EnvironmentFile=/etc/environment
+WorkingDirectory=/home/fjacob/dev/divers/automevent
+ExecStart=/home/fjacob/dev/divers/automevent/main.py
+
+[Install]
+WantedBy=graphical.target

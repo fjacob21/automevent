@@ -1,0 +1,11 @@
+# OSX
+#
+.DS_Store
+
+# python
+#
+*.pyc
+
+# ipython notebook
+#
+*.ipynb

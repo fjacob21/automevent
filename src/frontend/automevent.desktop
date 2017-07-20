@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=AutomEvent
+Exec=/home/fjacob/dev/divers/automevent/frontend.py
+Comment=View & interpret SELinux denials
+Encoding=UTF-8
+Type=Application
+StartupNotify=true
+X-KDE-autostart-after=panel
+Icon=setroubleshoot_icon
+X-GNOME-Autostart-enabled=true
